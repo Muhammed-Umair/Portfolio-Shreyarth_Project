@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header-container{
+    width: 100%;
+    /* border: 3px solid red; */
+    /* border: 1px solid black; */
+    margin-bottom: 150px;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    /* justify-content: end; */
+}
+
+#container #image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#container #image img{
+    border-radius: 10%;
+    border: 1.5px solid black;
+    backdrop-filter: blur(10px);
+    
+}
+
+#container #texts{
+    width: 50%;
+    /* border: 3px solid green; */
+}
+#container #texts h1:nth-child(1){
+
+    margin-top: 120px;
+}
+#container #texts h1{
+    color: #fff;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+}
+
+#container #texts h1:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+#container #texts p{
+    font-size: 25px;
+    line-height: 40px;
+    color: #fff;
+    padding: 0 25px;
+}
+
+
+#container #texts p:nth-child(2){
+
+    margin-bottom: 45px;
+}
+
+#container #texts span{
+    font-size: 18px;
+    margin-left: 45px;
+    border: 1.5px solid #000;
+    border-radius: 7px;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+#container #texts span i{
+    margin-top: 25px;
+}
+
+/* HOVER */
+
+#container #texts span:hover{
+    cursor: pointer;
+    background-color: rgb(44, 44, 131);
+    color: #000;
+    transition: 0.4s;
+}

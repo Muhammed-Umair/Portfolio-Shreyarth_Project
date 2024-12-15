@@ -1,0 +1,76 @@
+#achievements{
+    margin: 100px 0;
+    /* border: 2px solid green; */
+    margin-top: 50px;
+}
+
+#achievements #heading-hr{
+    width: 100px;
+    margin: auto;
+    border: 1px solid white;
+}
+
+#ach-body h2{
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+#ach-container{
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+    padding: 10px 20px;
+}
+
+#ach-container hr{
+    color: #fff;
+    border: 1px solid white;
+}
+#qualifications{
+    width: 50%;
+    border: 3px solid white;
+    border-radius: 9px;
+}
+
+#qual-heading{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 25px;
+}
+#qual-heading h5{
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+
+
+#qual-content{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 50px 0;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#air{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+#qualifications:hover{
+    transform: scale(1.1);
+    transition: ease;
+    transition-duration: 0.4s;
+    box-shadow: 5px 5px #ffffff80;
+    cursor: context-menu;
+}

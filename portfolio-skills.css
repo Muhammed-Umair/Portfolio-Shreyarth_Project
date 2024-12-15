@@ -1,0 +1,62 @@
+#skills {
+    margin-bottom: 200px;
+      margin-top: 70px;
+    }
+    
+    #skills h2 {
+      text-align: center;
+      margin: 20px 0;
+      color: #fff;
+      font-size: 40px;
+    }
+    
+    #skills p {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 0 25px;
+      font-size: 20px;
+      color: #fff;
+    }
+    
+    #langs {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      align-items: center;
+    }
+    
+    #langs .lang {
+      border: 2px solid black;
+      object-fit: cover;
+      width: 150px;
+      height: 60px;
+      padding: 8px 11px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    #langs .lang:nth-child(1),
+    #langs .lang:nth-child(2),
+    #langs .lang:nth-child(3) {
+      background-color: white;
+      color: #000;
+      font-weight: 500;
+      /* font-size: 20px; */
+      cursor: context-menu;
+      border-radius: 6px;
+    }
+    
+    #langs .lang:hover {
+      background-color: rgb(44, 44, 131);
+      color: #000;
+      font-weight: 800;
+      transition: ease-in-out;
+      transition-duration: 0.3s;
+    }
+    
+    #langs .lang img {
+      width: 25px;
+      object-fit: cover;
+    }

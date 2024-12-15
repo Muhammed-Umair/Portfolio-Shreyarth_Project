@@ -1,0 +1,154 @@
+#contact{
+    margin-top: 80px;
+    /* width: 80%; */
+    /* margin-bottom: 70px; */
+    padding: 0 35px;
+    margin: 0 auto 70px;
+    /* display: flex; */
+    /* border: 3px solid white; */
+}
+
+
+#contact-heading h2{
+    /* text-align: center; */
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    /* text-decoration: underline; */
+    color:  #fac642;
+    /* margin: auto; */
+}
+
+
+#contact #contact-container{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 40px;
+    position: relative;
+}
+
+
+#contact-text{
+    flex: 3;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+#contact-text i{
+    margin-left: 50px;
+}
+
+#contact-text span{
+    /* text-align: center; */
+    /* line-height: 30px; */
+    color: #fff;
+    margin-left: 25px;
+    font-size: 28px;
+    /* padding: 0 50px; */
+}
+
+#contact-text p{
+    margin-top: 7px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    margin-left: 112px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/* REVIEW BOX STYLING */
+
+#contact-form{
+    display: flex;
+    align-items: center;
+    /* border: 3px solid white; */
+    /* margin-bottom: 80px; */
+    position: absolute;
+    left: 55%;
+    bottom: 4%;
+}
+
+#contact-form form{
+    /* border: 3px solid white; */
+    width: 34vw;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    /* margin: 10px 25px; */
+}
+
+
+#contact-form input{
+    outline: none;
+    /* margin: 10px 25px; */
+    padding: 10px 5px;
+    font-size: 18px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+#contact-form form label{
+    margin: 10px 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+#txtarea{
+    resize: none;
+    outline: none;
+    /* margin-top: 10px; */
+    padding: 10px 5px;
+    font-size: 18px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+#btn{
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 9px ;
+    background-color: rgba(44, 64, 131, 0.712);
+    color: black;
+    /* border-color: white; */
+    font-weight: 600;
+    /* font-size: 40px; */
+}
+
+
+
+#btn:hover{
+    background-color:white;
+    color: black;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+/* input:valid ~ label,
+input:focus ~ label{
+
+    border-bottom: 1px solid white;
+    
+    transition-duration: 0.4s;
+    transition: ease-in-out;
+}
+
+textarea:valid ~ label,
+textarea:focus ~ label{
+
+    border-bottom: 1px solid white;
+    
+    transition-duration: 0.4s;
+    transition: ease-in-out;
+} */
