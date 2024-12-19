@@ -69,7 +69,7 @@
 
 #qualifications:hover{
     transform: scale(1.1);
-    transition: ease;
+    transition: ease-in;
     transition-duration: 0.4s;
     box-shadow: 5px 5px #ffffff80;
     cursor: context-menu;
